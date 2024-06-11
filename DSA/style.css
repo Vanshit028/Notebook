@@ -1,0 +1,80 @@
+* {
+    font-family: system-ui;
+}
+/* Class for editing content */
+.note {
+    margin-bottom: 15px;
+    padding: 10px;
+    color: green;
+    background-color: #f4fbf9;
+}
+
+.remember {
+    margin-bottom: 15px;
+    padding: 10px;
+    color: violet;
+    background-color: #f3f4fd;
+}
+
+/* Content Font Size */
+p,
+li,
+code {
+    font-size: 18px;
+}
+
+/* Heading */
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+
+/* Bold */
+strong {
+    color: crimson;
+}
+
+
+/* Table */
+table {
+    width: max-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 2px solid;
+}
+
+tr th:first-child, tr td:first-child{
+    color: red;
+    font-weight: 600;
+}
+
+tr th:last-child, tr td:last-child{
+    color: rgb(0, 255, 0);
+    font-weight: 600;
+}
+
+/* Image CSS */
+.sort-cycle{
+    width: 35%;
+    height: 35%;
+    object-fit: fill;
+}
+
+.long-cycle{
+    width: 500px;
+    height: 280px;
+    object-fit: fill;
+}
